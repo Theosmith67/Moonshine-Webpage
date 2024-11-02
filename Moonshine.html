@@ -1,0 +1,161 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonshine Distillery</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS';
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #fff; /* Change text color to white for better contrast */
+            background-color: #000; /* Set body background to black */
+        }
+        header {
+            background: gold; /* Set header background to gold */
+            color: #000; /* Change header text color to black */
+            padding: 0.2rem 0;
+            text-align: center;
+            height: auto;
+        }
+        h1 {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        nav {
+            margin-top: 2px;
+        }
+        nav a {
+            color: #000; /* Change link color to black */
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+        .hero {
+            background: url('https://lh3.googleusercontent.com/pw/AP1GczNJw6zYTavFv1g3rKB4Mr9SJZMgdOqjtxn2ZiYCcpV83JtSnoH2Cm5VLy3H_sLS3rF9j17dgOYTSlnxUpQnq6De5Hut41YyfBj7r7QknJXAG3zMx-vQlBQpjGsIJiRD9Z8TzRwdLj4-P-XebxCKh4T1=w633-h633-s-no-gm?authuser=0') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .products, .events, .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product, .event, .testimonial {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 15px;
+            flex-basis: 30%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.1); /* Add a slight background for contrast */
+        }
+        @media (max-width: 768px) {
+            .product, .event, .testimonial {
+                flex-basis: 100%;
+            }
+        }
+        footer {
+            background: gold; /* Set footer background to gold */
+            color: #000; /* Change footer text color to black */
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ted's Moonshine Distillery</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Our Products</a>
+        <a href="#process">Distillation Process</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" style="background: url('https://lh3.googleusercontent.com/pw/AP1GczNJw6zYTavFv1g3rKB4Mr9SJZMgdOqjtxn2ZiYCcpV83JtSnoH2Cm5VLy3H_sLS3rF9j17dgOYTSlnxUpQnq6De5Hut41YyfBj7r7QknJXAG3zMx-vQlBQpjGsIJiRD9Z8TzRwdLj4-P-XebxCKh4T1=w633-h633-s-no-gm?authuser=0') no-repeat center center/cover;">
+    <h2>Crafting Tradition, One Drop at a Time</h2>
+    <a href="#products" style="color: #fff; background: #e67e22; padding: 10px 15px; text-decoration: none;">Shop Now</a>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Welcome to our moonshine distillery, where we blend tradition with craftsmanship.</p>
+</section>
+
+<section id="products" class="section">
+    <h2>Our Products</h2>
+    <div class="products">
+        <div class="product">
+            <h3>Traditional Moonshine</h3>
+            <p>Classic flavor, handcrafted with care.</p>
+            <p>Price: $30</p>
+        </div>
+        <div class="product">
+            <h3>Apple Pie Moonshine</h3>
+            <p>Sweet and spicy, perfect for gatherings.</p>
+            <p>Price: $35</p>
+        </div>
+        <div class="product">
+            <h3>Peach Moonshine</h3>
+            <p>Refreshing and fruity, a summer favorite.</p>
+            <p>Price: $32</p>
+        </div>
+    </div>
+</section>
+
+<section id="process" class="section">
+    <h2>Distillation Process</h2>
+    <p>Our moonshine is crafted using traditional methods...</p>
+</section>
+
+<section id="events" class="section">
+    <h2>Upcoming Events</h2>
+    <div class="events">
+        <div class="event">
+            <h3>Moonshine Tasting</h3>
+            <p>Date: January 15, 2024</p>
+            <p>Join us for a tasting of our finest spirits.</p>
+        </div>
+        <div class="event">
+            <h3>Distillery Tour</h3>
+            <p>Date: February 10, 2024</p>
+            <p>Get a behind-the-scenes look at our distillation process.</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="section">
+    <h2>Testimonials</h2>
+    <div class="testimonials">
+        <div class="testimonial">
+            <p>"Best moonshine I've ever had!" - Customer A</p>
+        </div>
+        <div class="testimonial">
+            <p>"A true taste of tradition!" - Customer B</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: info@moonshinedistillery.com</p>
+    <p>Phone: (123) 456-7890</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Moonshine Distillery. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
